@@ -41,8 +41,11 @@ function App() {
 
 	return (
 		<>
-			<h1>Welcome to todo app</h1>
-			<header></header>
+			<header>
+				<h1 className="items-center align-middle justify-center mx-auto bg-gray-100 mt-16 p-7 w-7/12 text-center text-3xl font-bold uppercase">
+					Welcome to todo app
+				</h1>
+			</header>
 			<main>
 				<section>
 					<Form
